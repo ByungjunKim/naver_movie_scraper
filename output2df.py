@@ -24,4 +24,4 @@ def comments2df():
     return df
 
 comments_df = comments2df()
-comments_df.to_csv(f'./output/comments_df/{file_list}_comments.csv',index=None)
+comments_df.to_csv(f'./output/comments_df/{file_name}_comments.csv',index=None)
